@@ -1,0 +1,16 @@
+{
+  "name": "mol-demo",
+  "version": "1.0.0",
+  "description": "Moleculer demo",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services/**/*.service.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jim Vaughan",
+  "license": "MIT",
+  "dependencies": {
+    "moleculer": "^0.14.29",
+    "moleculer-repl": "^0.7.3",
+    "moleculer-web": "^0.10.5"
+  }
+}
